@@ -2,7 +2,8 @@ import axios from "axios";
 // import { baseURI } from "../config";
 import { baseURL } from "../config";
 
-export const baseURI = "https://swift-rider.onrender.com";
+export const baseURI = "https://swift-rider-coug.onrender.com"
+//"https://swift-rider.onrender.com";
 
 
 export const apiGet = async (path: string) => {
