@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.requestContainer{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    height: auto;
+    margin: 12% auto 12% auto;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 12%; */
+    justify-content: center;
+}
+
+.requestFirst{
+    position: relative;
+    /* margin-top: 100px; */
+    width: 50%;
+    height: auto;
+    z-index: 2;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: auto;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 5%;
+}
+.request_header {
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    border-bottom: 2px solid #e2e2e2;
+    padding: 5px;
+}
+.requestBtn{
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    background-color: #E5E5E5;
+    padding: 10px;
+}
+.requestTitle{
+    color: #21334F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    width: 60%;
+    padding: 10px;
+    text-align: start;
+    font-size: 27px;
+    line-height: 19px;
+}
+.requestSubmit{
+    background-color: #E02B45;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 80%;
+    height: 47px;
+    /* margin-bottom: 10px; */
+    /* padding: 10px; */
+    /* border: 2px solid #F8F8F8; */
+    /* display: block; */
+}
+.requestInput::placeholder{
+    color: #C4C4C4;
+}
+.req_order_form_dv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.req_order_form_data {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+}
+.req_order_form_pay {
+    /* width:40%; */
+    display: flex;
+}
+.req_order_form_pay input {
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    opacity: 0.55;
+    cursor: pointer;
+}
+/* .requestSubmit{
+    color: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+} */
+.requestLabel{
+    margin-bottom: 20px;
+    color: #21334F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    width: 80%;
+    display: block;
+}
+.requestInput{
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: rgba(23, 20, 20, 0.763);
+    font-size: 16px;
+    font-weight: 400 normal;
+    border: 2px solid #F8F8F8;
+    display: block;
+    line-height: 18px;
+}
+.requestOutput{
+   width: 50%;
+    height: 80%;
+    background-color: #ffffff;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.requestInputAutoCplt{
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #F8F8F8;
+    display: block;
+    color: rgba(23, 20, 20, 0.763);
+    font-size: 16px;
+    font-weight: 400 normal;
+    line-height: 18px;
+}
+.requestInputAutoCplt::placeholder{
+    color: #C4C4C4;
+}
+.requestLink{
+    text-decoration: none;
+}
+
+.requestBtn:hover{
+    background-color: #E02B45;
+    color: #ffffff;
+    font-weight: 600;
+}
+.requestFirstLeft{
+    margin-top: 5%;
+    /* margin-bottom: 120px; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    
+}
+.userOrder_f {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+@media only screen and (max-width:900px) {
+    .requestFirst {
+        width: 80%;
+        font-size: 1.5rem;
+    }
+    .requestContainer{
+        /* margin-top: 20%; */
+        margin: 20% auto auto auto;
+        height: auto;
+    }
+    .requestLabel{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:465px){
+    .requestFirstLeft{
+        width: 100%;
+    }
+    .requestFirst{
+        width: 90%;
+        height: auto;
+        font-size: 16px;
+    }
+    .requestInput{
+        /* height: 22px; */
+        line-height: 40px;
+    }
+    .requestSubmit{
+        /* height: 22px; */
+        line-height: 40px;
+    }
+    .requestContainer{
+        /* margin-top: 20%; */
+        margin: 20% auto auto auto;
+        height: auto;
+    }
+    .requestFirst {
+        width: 80%;
+    }
+    .requestTitle{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+    .requestBtn{
+        height: 42px;
+    }
+}

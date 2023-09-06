@@ -1,0 +1,15 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    overflow:auto !important;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif !important;
+}
+
+.home_holding_con{
+    position: relative;
+}
+.home_holding_con2{
+    position: relative;
+    margin-top: 3.7em;
+}

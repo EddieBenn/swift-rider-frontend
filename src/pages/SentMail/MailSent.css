@@ -1,0 +1,45 @@
+.sentMail-Container {
+    background: #E5E5E5;
+    height: 100vh;
+    margin: auto;
+    display: flex
+}
+.mailsent_h3{
+    color:black;
+    font-size:xx-large;
+    padding-bottom: 1px;
+    margin-bottom: 10px
+}
+
+.mailsent_ptag{
+    text-align: center;
+}
+
+.sentBtn {
+    /* background-color: #E02B45; */
+    padding: 16px, 24px, 16px, 24px;
+    width: 204px;
+    height: 54px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px
+}
+
+.Cover {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    height: 525px;
+    width: 712px;
+    padding: 30px
+}

@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.overviewHeader{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10rem;
+    padding-top: 10px;
+}
+.overviewh1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #21334F;
+    margin-left: 10px;
+}
+.container{
+    height: 100vh;
+    overflow-y:hidden;
+}
+.subcontainer{
+  background-color: #E5E5E5;
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+}
+.gridArea{
+    display: grid;
+    grid-template-areas: 
+    "totalOrders messages"
+    "myOrders messages"
+    " myOrders Contact ";
+    gap: 5% 3%;
+    padding: 0% 10%;
+}
+.totalOrders{
+    grid-area: totalOrders;
+    background-color: #fff;
+    height: 20vh;
+    border-radius: 10px;
+}
+.myOrders{
+    grid-area: myOrders;
+    background-color: #fff;
+    height: 50vh;
+    border-radius: 10px;
+}
+.messages{
+    grid-area: messages;
+    background-color: #fff;
+    height: 34vh;
+    border-radius: 10px;
+}
+.Contact{
+    grid-area: Contact;
+    background-color: #fff;
+    height: 36vh;
+    border-radius: 10px;
+    margin-top: -8%;
+}
+.orderRequest{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+    height: 65px;
+}
+.totalOrdersH1{
+  font-size: 16px;
+    font-weight: 600;
+    color: #21334F;
+    margin-left: 5px;
+}
+.makeRequest{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgba(224, 43, 69,0.1);
+    color: #E02B45;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 142px;
+    height: 33px;
+    padding: 8px;
+    margin-bottom: 29px;
+    border: none;
+    border-radius: 5px;
+}
+
+.orderRequest a button{
+    padding: 10px 5px;
+    color: white;
+    background-color: #e02b46e7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ordersCompleted{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: none;
+    height: 65px;
+    margin-top: 10px;
+}
+.ordersH2{
+    top: 250px;
+    left: 180px;
+    font-size: 15px;
+    font-family: Inter;
+    color: #21334F;
+    margin-right: 100px;
+    margin-bottom: 340px;
+}
+.orders1{
+    color: #21334F;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.shoppingBag{
+    background-color: rgba(0, 0, 0, 0.04);
+    width: 60px;
+    border-radius: 100%;
+    padding: 12px;
+    margin-right: 20px;
+}
+.myOrdersee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #E5E5E5;
+    height: 65px;
+}
+.ordersMy{
+    font-size: 16px;
+    font-weight: 600;
+    color: #21334F;
+    margin-top: 29px;
+    margin-left: 5px;
+}
+.seeAllOrders{
+    color: #E02B45;
+    margin-right: 20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.pendingTime{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 0px solid #E5E5E5;
+    height: 65px;
+}
+.todayBread{
+    font-family: Inter;
+    font-size: 13px;
+    color: #21334F;
+}
+.pendingRides{
+    position: absolute;
+    font-family: Inter;
+    font-size: 13px;
+    margin-top: 55px;
+    color: #21334F;
+}
+.orderNos{
+    margin-top: 4px;
+    font-family: Inter;
+    font-size: 13px;
+    color: #f8b02b;
+    background-color: rgba(252, 193, 52, 0.2);
+    border-radius: 50px;
+    padding: 4px 15px;
+    position: absolute;
+    right: 800px;
+}
+.orderCash{
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 13px;
+    margin-top: 55px;
+    color: #21334F;
+}
+.orderNos1{
+    position: absolute;
+    right: 800px;
+    margin-top: 4px;
+    font-family: Inter;
+    font-size: 13px;
+    color:green;
+    background-color: rgba(52, 168, 83, 0.1);
+    border-radius: 50px;
+    padding: 4px 15px;
+}
+.messagesTopic1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #E5E5E5;
+    height: 65px;
+}
+.messagesTopic{
+    color: #21334F;
+    font-family: Inter;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.messagesIcon{
+    flex-direction: column;
+}
+.tiMessage{
+    color: #21334F;
+    width: 10vw;
+    height: 8vh;
+   margin-left: 210px;
+   margin-top: 10px;
+}
+.iconMessage{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.noMessage{
+    color: #21334F;
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.noMessageP{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #C4C4C4;
+}
+.usContact{
+    display: flex;
+    padding: 0 20px;
+    border-bottom: 1px solid #E5E5E5;
+    height: 65px;
+}
+.usContact1{
+    color: #21334F;
+    font-family: Inter;
+    font-size: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.getIntouch1{
+    margin-top: 20px;
+    margin-left: 34%;
+    width: 139px;
+    height: 29px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #21334f;
+    justify-content: center;
+    }
+.getInSend{
+    margin-right: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c4c4c4;
+}
+.contactDetails{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    
+}
+
+.contactDetails p{
+    display: flex;
+    align-items: center;
+    margin: 11px 0px;
+}
+.contactDetails p a{
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+
+.contact_details_link {
+    text-decoration:    none;
+    color:   rgb(35, 35, 101);
+}
+.rchat_container_pa{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgba(133, 124, 124, 0.44);
+    margin: auto;
+  }
+
+@media only screen and (max-width: 768px) {
+    .overviewHeader {
+    margin-left: 10px;
+    text-align: center;
+    }
+    .gridArea {
+    grid-template-areas:
+    "totalOrders"
+    "myOrders"
+    "messages"
+    "Contact";
+    gap: 0;
+    padding: 0;
+    }
+    .totalOrders,
+    .myOrders,
+    .messages,
+    .Contact {
+    height: auto;
+    width: 100%;
+    }
+    .makeRequest {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+    .ordersCompleted {
+    height: auto;
+    }
+    .ordersH2 {
+    top: auto;
+    left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+    }
+    
+    
+    
+    

@@ -1,0 +1,116 @@
+/**==========================================**/
+.user__settings__div{
+    background-color: #FFF;
+    height: 100vh;
+}
+.user_settings_main{
+    position: absolute;
+    width: 100%;
+    margin-top: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: 100% 100% #FFF;
+}
+.user_settings_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+.user_settings_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 3rem 2.5rem 2rem 2.5rem;
+    padding: auto;
+    border: 0.063rem solid #C6C6C6;
+    gap: 2rem;
+    height: auto;
+}
+.settings_b_info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.07rem;
+
+
+color: #21334F;
+}
+.settings_p_info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.07rem;
+    color: #BDBDBD;
+}
+.user_settings_form_title{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.settings_f_fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    gap: 1.5rem;
+    margin: auto auto 3.9rem auto;
+}
+.settings_input_field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.8rem;
+    position: relative;
+}
+.settings_input_field label {
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.07rem;
+/* identical to box height */
+
+
+color: #21334F;
+}
+.settings_input_info{
+    width: 100%;
+    height: 3rem;
+    border: none;
+    background: rgba(0, 0, 0, 0.03);
+    padding-left: 0.8rem;
+    padding-block: 10px;
+}
+
+.settings_input_info::placeholder{
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.85rem;
+    line-height: 1.06rem;
+    color: #21334f6c;
+}
+.settings_pen {
+    position: absolute;
+    top: 1.9rem;
+    right: 0.8rem;
+    font-size: 0.8rem;
+    color: #BDBDBD;
+}
+@media only screen and (max-width:600px) {
+    .user_settings_form{
+        width: 90%;
+    }
+}

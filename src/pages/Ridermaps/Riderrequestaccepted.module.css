@@ -1,0 +1,80 @@
+
+.doneRQ{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Done{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width:30%;
+    height:50%;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.042);
+    border-radius: 10px;
+    border: 1px solid #c4c4c457; 
+}
+.doneRequest, .donep, .doneinnerp, .doneBtn {
+    margin-bottom: 10px;
+
+}
+.doneRequest{
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.donep{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    width: 300px
+}
+.doneinnerp{
+font-size: 16px;
+ font-weight: bolder;
+ display: inline-block;
+ margin: 0px 4px;
+ 
+}
+
+.doneBtn{
+    background-color: rgba(224, 43, 69, 0.1);;
+    color:#E02B45; ;
+    width: 300px;
+    border: none;
+    /* height: auto; */
+    padding: 10px;
+}
+
+@media screen and (max-width:768px){
+    .Done{
+        /* flex-direction: row; */
+        width:80%;
+        height:40%;
+        padding-top: 10px;
+
+    }
+    .doneRequest, .donep, .doneinnerp, .doneBtn {
+        margin-bottom: 20px;
+    
+    }
+
+    .doneBtn{
+        width: 250px;
+    }
+
+    .Done img{
+        margin-top: 20px;
+    }
+    
+    
+}

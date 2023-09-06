@@ -1,0 +1,242 @@
+.MPCTN{
+        position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    }
+
+.mapContainer{
+    display:flex;
+    width:100%;
+    /* border-top: 1px solid #c4c4c45a; */
+    position: absolute;
+    bottom: 0px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 5px 10px;
+    margin-left: 20px;
+    width:20% ;
+}
+
+.details h3{
+    color: #21334F;
+}
+
+.mapV{
+    width:80%;
+    position: relative;
+    top: 36;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.formCtn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.divInputCtn{
+    display: flex;
+    flex-direction: column;
+    margin: 2px 0px; 
+}
+
+.divInputCtn p{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    color: #2E405A;
+    outline: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+ .divInputCtn input{
+    display: flex;
+    flex-wrap: wrap;
+    color: #2E405A;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+    height: 30px;
+    border: none;
+ }
+
+.divInputCtn input:disabled{
+    background-color: #f5f5f500;
+}
+
+.divInputCtn::placeholder{
+    padding: 5px 0px;
+}
+
+.divInputCtnLbl{
+    color: #c5c3c3;
+}
+
+.input[type="radio"]:checked:after {
+    color: #E02B45;
+}
+
+.PymtCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+}
+
+.btnGroup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.btnGroup button{
+border: none;
+padding: 10px 0px;
+transition: 0.3s ease-in-out;
+}
+
+.btnGroup button.aceptReq{
+    background-color: #E02B45;
+    color: white;
+}
+            
+.btnGroup a, .declineReq{
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+.declineReq, .aceptReq{
+    width: 100%;
+    height: 100%;
+}
+
+.aceptReq:hover, .declineReq:hover{
+    cursor: pointer;
+    filter: blur(1px);
+
+}
+.btnGroup .aceptReq:hover{
+    border: 2px solid #2be085;
+    margin-bottom: 5px;
+}
+
+.btnGroup .declineReq:hover{
+    background-color: #2be085;
+    color: white;
+}
+
+.incomingRequest{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    /* height: 150px; */
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.813);
+    box-sizing: border-box;
+    border-radius: 0px 0px 10px 10px;
+    margin: 20px 0px 0px 20px;
+}
+
+.incomingRequest p{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.incomingRequest p:nth-child(1){
+    justify-content: center;
+    align-items: center;
+    background: #34A853;
+    color: white;
+    text-align: center;
+    padding: 5px auto;
+    height: 30px;
+    font-weight: 500;
+}
+
+
+.incomingRequest p:nth-child(2){
+    font-size: 1.1rem;
+}
+
+.incomingRequestInnerP{
+    margin: 5px 10px;
+    height: auto;
+    max-width: 90%;
+}
+
+.innerPMedium{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.innerPSmall{
+    font-size: 12px;
+}
+
+.endtrip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width:300px;
+    height:100px;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-left: 50px; 
+}
+
+.endtriporder{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.endtripswift{
+    color:#21334F;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.endtripp{
+    text-align: center;
+    font-size: 14px;
+
+}
+
+@media screen and (max-width: 768px){
+    .mapContainer{
+        flex-direction: column;
+        position: relative;
+        margin-top: 80px;
+        overflow-x: hidden;
+        border-top: 1px solid #F00;
+        background:#FFF;
+    }
+
+    .details{
+        width: 80%;
+        margin: 0px;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .mapV{
+        width: 100%;
+    }
+
+    .MPCTN{
+        position: relative;
+    }
+}   

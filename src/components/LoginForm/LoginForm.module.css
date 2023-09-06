@@ -1,0 +1,153 @@
+.login_f_section{
+  display: flex;
+  height: 100vh;
+}
+
+.login_form_data_container{
+  background-image:url("../../assets/Users_dashboard/Parcel-Delivery-Service.jpeg");
+  background-size: cover;
+  display: flex;
+}
+
+.login_form_image{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  background: linear-gradient(to right, #211c1c4d, #57524a32) 
+}
+
+.login_section_h1{
+  color: #fff;
+  margin:0px 0px 50px 20px;
+}
+
+.login_form_ctainer{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.login_form_ctainer_innerDiv{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  height: 80vh;
+
+}
+
+.login_form_ctainer,.login_form_data_container{
+  width: 50%;
+}
+
+.login_form{
+
+  width: 80%;
+  height: 65vh;
+}
+
+.login_logo_div{
+  width: fit-content;
+}
+
+.login_form_logo{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+
+
+}
+
+.login_form_logo span{
+  color: #E02B45;
+}
+
+.login_form_title{
+  margin-bottom: 20px;
+}
+
+.login_form_label_ctn{
+  height: 50vh;
+}
+
+.login_form_fieldctn{
+  display: flex;
+  flex-direction: column;
+}
+
+.login_form_fieldctn b{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  background: rgb(255, 255, 255);
+  color: #c4c4c4;
+}
+
+b .login_form_input{
+  height: 2.8em;
+  width: 93%;
+  border: none !important;
+  border-radius: 0px 5px 5px 0px !important;
+}
+
+b .login_form_input::placeholder{
+  padding: none;
+}
+
+.login_form_input[type="submit"]{
+  height: 2.8em;
+  border: none;
+  cursor: pointer;
+  background: #E02B45;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.login_form_label{
+  margin-bottom: 5px;
+}
+input {
+  font-family: "Inter", sans-serif;
+}
+.login_form_a{
+  margin-bottom: 20px;
+}
+.login_form_p{
+  margin-top: 10px;
+}
+
+.login_form_p a{
+  color: #E02B45;
+  text-decoration: none;
+}
+
+.login_form_a a{
+  color: #4285F4;
+  text-decoration: none;
+}
+
+.login_form_a, .login_form_p{
+  font-size: 12px;
+}
+
+
+@media screen and (max-width: 800px){
+
+  .login_form_data_container{
+    display: none;
+  }
+
+  .login_form_ctainer, .login_form{
+    width: 100%;
+  }
+
+}

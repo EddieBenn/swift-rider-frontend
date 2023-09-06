@@ -1,0 +1,72 @@
+
+.verifyForm{
+    margin: 50px auto;
+}
+.verifyDiv{
+   display:flex
+
+}
+.verifyContainer{
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+.otpcard{
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.OTP-field{
+    padding-top: 90px;
+}
+
+.otp{
+    padding-bottom: 40px;
+}
+.btnContainer{
+    font-size: 20px;
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(3, 188, 3);
+    color: #fff;
+}
+
+.resend{
+    font-style: italic;
+    color: red;
+}
+.final{text-decoration: none;}
+
+
+@media only screen and (max-width:600px){
+    .otpcard{
+        width: 90%;
+        height: 60%;
+      
+    }
+}
+
+
+@media only screen and (max-width:1000px){
+    .otpcard{
+        position: absolute;
+        width: 90%;
+        height: 60%;
+        margin-top: 150px;
+      
+    }
+}

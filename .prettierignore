@@ -1,0 +1,5 @@
+node_modules
+# Ignore artifact:
+build
+coverage
+vite.env.d

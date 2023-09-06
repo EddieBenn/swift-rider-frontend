@@ -1,0 +1,157 @@
+.method-payment-div{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    margin-top: 10em;   
+    background-color: #E5E5E5;
+    width: 100%;
+    height: auto;
+    
+}
+.payment_options_title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background: #FFF;
+}
+.payment_options_data1{
+    position: relative;
+    display:flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 0 2em 0 2em;
+    border-bottom: 1px solid #E2E2E2;;
+}
+.absolute_post {
+    float: left;
+    width: 20%;
+    font-size: 1.5rem;
+    font-weight: 600 normal;
+    color: #0000;
+    text-align: start;
+}
+.add_card_navigate:hover {
+    background-color: #b0baca;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    color: #FFF;
+}
+.relative_post{
+    width: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.19em;
+    color: #21334F;
+    position: relative;
+}
+.payment_options_data1 li {
+    list-style: none;
+}
+.add-card {
+    font-size: 18px;
+    margin-left: 9em;
+    display: inline;
+}
+.payment_options_data2{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.data2_card-icon {
+    height: 6em;
+    width: 6em;
+}
+.data2_card-container {
+    width: 90%;
+    display: grid;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto;
+}
+.no_card_info {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.22em;
+    color: #21334F;
+}
+.no_card_info p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+
+}
+.add-card-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.add-card-btn input {
+    width: 10rem;
+    color: #FFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 2.08em;
+    border: none;
+    background-color: #E02B45;
+
+}
+.add-card-btn input:hover{
+    box-shadow: 0 0 0 3px #c39ae2;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .method-payment-div{
+        max-height: 400px;
+    }
+    .payment_options_title{
+        width: 90%;
+    }
+    .payment_options_data1{
+        width: 90%;
+        margin: 0 1em 0 1em;
+    }
+    .absolute_post{
+        width: 20%;
+        text-align: start;
+    }
+    .relative_post{
+        width: 80%;
+        padding-left: 2em;
+        text-align: start;
+    }
+    .card-icon {
+        margin-left: 10em;
+    }
+    .no-card {
+        margin-left: 8em;
+    }
+    .add-card {
+        margin-left: 5em;
+    }
+}

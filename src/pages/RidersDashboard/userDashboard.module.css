@@ -1,0 +1,566 @@
+.user_dashboard_p_div{
+    width: 100%;
+    margin: auto;
+  }
+  *{
+    padding: 0%;
+    margin: 0%;
+  }
+  .middle_container {
+      background-color: #e5e5e5;
+      width: 90%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      flex-direction: column;
+      margin: 5% 5% 20px 5%;
+    }
+  
+    .userD_main_container{
+      display: grid;
+      width: 100%;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-between;
+      position: relative;
+      gap: 10;
+      margin: auto;
+      margin-bottom: 5%;
+    }
+    .second_container {
+      display: flex;
+      flex-direction: column;
+    }
+    .viewoverH1 {
+      position: relative;
+      margin: 3% auto auto 3%;
+      padding-right:auto;
+      width: 100%;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      /* line-height: 29px; */
+      color: #21334f;
+      display: flex;
+    }
+    .orders_container {
+      position: relative;
+      height: 250px;
+      margin: 3% 3% 5px 3%;
+      background: #ffffff;
+      border-radius: 15px 15px 15px 15px;
+    }
+    .top_orders {
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: auto;
+      border-radius: 24px;
+    }
+    .bottom_orders {
+      /* margin-left: 30px; */
+      /* margin-top: 50px; */
+      height: 150px;
+      margin: 3%;
+      background: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      /* gap: 250px; */
+      flex-direction: row;
+      border-radius: 24px;
+    }
+  
+    .bt_orders_span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50% !important;
+      /* align-items: center; */
+    }
+  
+    #orders {
+      margin-left: 20px;
+      width: 120px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #21334f;
+      margin-top: 10px;
+    }
+    #request {
+      /* margin-top: 30px; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      margin-right: 25px;
+      border-radius: 4px;
+      /* width: 107px; */
+      /* height: 17px; */
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      /* line-height: 17px; */
+    }
+    .middle_container hr {
+      position: absolute;
+      width: 100%;
+      height: 0px;
+      left: 0px;
+      top: 63px;
+      border: 1px solid #e2e2e2;
+    }
+    #orders_image {
+      width: 50px;
+      height: 50px;
+      left: 0px;
+      top: 0px;
+    }
+    #image {
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.04);
+      width: 72px;
+      height: 72px;
+      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: auto;
+    }
+    #order_number {
+      width: 81px;
+      height: 48px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      color: #21334f;
+    }
+    #orders_completed {
+      width: 137px;
+      height: 19px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #21334f;
+    }
+    .messages_container {
+      /* margin-left: 800px; */
+      position: relative;
+      height: 300px;
+      margin: 3%;
+      /* left: 0px; */
+      /* top: 100px; */
+      background: #ffffff;
+      border-radius: 15px 15px 15px 15px;
+    }
+    #messages {
+      width: 81px;
+      height: 19px;
+      margin-left: 30px;
+      margin-top: 30px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #21334f;
+    }
+    #msg1 {
+      position:relative;
+      margin-left: 20px;
+      margin-top: 60px;
+      display: inline-block;
+    }
+    #msg2{
+    position:relative;
+    margin-left: -60px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: inline-block;
+    }
+    #msgP {
+      color: #21334f;
+      margin-top: 20px;
+    }
+    #msgP2 {
+      text-align: justify;
+      padding: 5px;
+      height: 19px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #c4c4c4;
+    }
+    #no_messages {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    #image_div {
+      /* display: flex;
+        flex-direction: column; */
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .myorders_container {
+      position: relative;
+      max-height: auto !important;
+      margin: 3%;
+      border-radius: 15px 15px 15px 15px;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+    }
+    .seeAll {
+      width: 51px;
+      height: 19px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #e02b45;
+    }
+    #orderzz {
+      width: 82px;
+      height: 19px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #21334f;
+    }
+    .order_details {
+      display: flex;
+      margin-top: 30px;
+      padding: 10px;
+      align-items: center;
+      justify-content: space-between;
+      /* gap: 300px; */
+    }
+    .order_details_fxd {
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      position: fixed;
+    }
+    .order_stats {
+      margin-top: 30px;
+      margin-left: 1.25rem;
+      margin-bottom: 0.9rem;
+  
+    }
+    .order_status_title{
+      display: flex;
+      justify-content: space-between;
+    }
+    .date {
+      width: 200px;
+      height: 23px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.87em;
+      line-height: 17px;
+      color: #21334f;
+      display: inline-block;
+    }
+    .status {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      /* margin: auto; */
+      height: 28px;
+      margin-right: 3%;
+      background: rgba(252, 193, 52, 0.1);
+      border-radius: 100px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #f8b02b;
+    }
+    .orderNo {
+      width: 161px;
+      height: 17px;
+      /* margin-top: 400px; */
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+      color: #21334f;
+    }
+    .amount {
+      width: 70px;
+      height: 17px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+      color: #21334f;
+      margin-right: 2px;
+    }
+    .space {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .contact_details_link > a{
+      text-decoration:    none;
+      color:   rgb(35, 35, 101);
+  }
+  
+    .contacts_container {
+      position: relative;
+      margin: 12% 3% 3% 3%;
+      border-radius: 24px;
+      background: #ffffff;
+      display: flex;
+      height: 300px;
+      flex-direction: column;
+      border-radius: 15px 15px 15px 15px;
+    }
+    .contact {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #21334f;
+    }
+    .contacts_parag {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 3%;
+      /* position: relative; */
+      margin-top: 30px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+  
+  color: #21334F;
+    }
+    .bio {
+      position: relative;
+      bottom: 0;
+      margin: 1.25em 0 1.25em 0;
+      display: flex;
+      margin-left: 3%;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #getInTouch {
+      display: flex;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #21334f;
+    }
+    #questions {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #c4c4c4;
+    }
+    .contact_mail_phone{
+      position: absolute;
+      top:5.6em;
+      bottom: 25px;
+      display: flex;
+      flex-direction: column;
+    }
+    #contact_details1 {
+      margin-top: 13px;
+      padding-left: 15px;
+      width: 130px;
+      height: 17px;
+      margin-left: 20px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #21334f;
+    }
+    #contact_details2 {
+      padding-left: 15px;
+      margin-top: 13px;
+      width: 210px;
+      height: 17px;
+      margin-left: 20px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #21334f;
+    }
+    #contact_details3 {
+      padding-left: 15px;
+      margin-top: 13px;
+      width: 260px;
+      height: 17px;
+      margin-left: 20px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #21334f;
+    }
+    .company_contacts {
+      /* padding: 10px; */
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      display: flex;
+  
+      /* margin-left: 20px; */
+      margin-top: 20px;
+  /* identical to box height */
+      color: #21334F;
+  
+    }
+    .company_contacts a {
+      text-decoration: none;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+  /* identical to box height */
+  
+  
+  color: #21334F;
+    }
+    .contactUs_images1 {
+      width: 19.5px;
+      height: 17.29px;
+      padding-right: 7px;
+      /* bottom: 14.72%; */
+    }
+    .contactUs_images2 {
+      width: 19.5px;
+      height: 17.29px;
+      padding-right: 7px;
+    }
+    .contactUs_images3 {
+      width: 19.5px;
+      height: 17.29px;
+      padding-right: 7px;
+    }
+    .userDashboardLink{
+      text-decoration: none;
+      margin-top: 10px;
+      background: rgba(224, 43, 69, 0.1);
+    }
+    .userDashboardLink span:hover{
+        background: rgb(189, 125, 125);
+        color: rgb(218, 209, 209) !important;
+        cursor: pointer;
+    }
+    .para{
+      margin:auto;
+    }
+    *{
+          margin:0;
+          padding:0;
+          box-sizing:border-box;
+    }
+    /* .contacts_holder{
+        margin-left:50px;
+    } */
+  
+    @media only screen and (max-width:900px){
+      /* .userD_main_container{
+        grid-template-columns: auto;
+      } */
+      .bio{
+        position: relative;
+      }
+      .order_stats{
+        margin-left: 0.5rem;
+        margin-bottom: 0.8rem;
+      }
+      .userD_main_container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+      }
+      .middle_container{
+        width: 100%;
+        margin: 25% auto auto auto;
+      }
+      .viewoverH1 {
+        margin-bottom: 5%;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+      }
+      .orders_container{
+        margin: 0 3% 0 3%;
+        border-bottom: 10px solid rgba(166, 9, 33, 0.1);
+      }
+      .messages_container{
+        margin: 0 3% 0 3%;
+        border-bottom: 10px solid rgba(166, 9, 33, 0.1);
+        
+      }
+      .contacts_container{
+        margin: 0 3% 5% 3%;
+      }
+      .myorders_container{
+        margin: 0 3% 0 3%;
+        border-bottom: 10px solid rgba(166, 9, 33, 0.1);
+      }
+    }
+    /* @media only screen and (max-width:900px){
+      .userD_main_container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+      }
+      .middle_container{
+        width: 100%;
+        margin: 20% auto auto auto;
+      }
+      .viewoverH1 {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+      }
+    } */

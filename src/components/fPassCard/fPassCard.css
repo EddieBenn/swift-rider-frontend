@@ -1,0 +1,91 @@
+.maindiv {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+width: 432px;
+height: 273px;
+
+}
+
+.labelpass {
+width: 41px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+
+.h{
+    background: #E5E5E5;
+    height: 100vh;
+    margin:auto;
+    display: flex;
+    background-color: red;
+}
+
+.h{
+    background: #E5E5E5;
+    height: 100vh;
+    margin:auto;
+    display: flex
+}
+.fill{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px, 16px, 8px;
+    gap: 16px;
+    width: 395px;
+    height: 48px;
+    background: #FFFFFF;
+    opacity: 0.8;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+.size{
+    margin: 10px;
+}
+
+.nter {
+width: 400px;
+height: 38px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: justify;
+padding: 5px;
+color: #C4C4C4;
+}
+.resetBtn{
+    
+    /* margin-top: 10px; */
+    background-color: #E02B45;
+    padding: 16px, 24px, 16px, 24px;
+    width: 396px;
+    height: 48px;
+    border: none;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 9px;
+}
+.backLog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    padding: 8px, 16px, 10px;
+    width: 136px;
+    height: 48px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+}

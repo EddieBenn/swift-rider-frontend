@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* section */
+.rider_profile_sectionContainer{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+.rider_profile_user_profileContainer_datas{
+    background-color: #FFF;
+    margin: 150px auto auto auto;
+    display: flex ;
+    flex-direction: column;
+}
+.rider_profile_user_profile_section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    border: 1px solid #BDBDBD;
+    padding: 1rem;
+}
+.rider_profile_text{
+    color: #BDBDBD;
+    text-align: left;
+}
+.rider_profile_title2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #21334F;
+    margin-bottom: 0;   
+}
+.rider_profile_view{
+    text-align: center;
+}
+.rider_profile_viewer{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 50px;
+    color: #03435F;
+}
+.rider_profile_formField{
+    display: flex;
+    flex-direction: column;
+}
+input.rider_profile_userProfile{
+    width:500px;
+    height:48px;
+    background: rgba(0, 0, 0, 0.03);
+    border: none;
+    margin: 10px 0;
+    padding: 20px;
+}
+input.rider_profile_userProfile::placeholder{
+    padding: 15px;
+    color: #21334F;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    text-align: start;
+}
+.rider_profile_userProfile_input{
+     position: relative
+}
+.rider_profile_icon1{
+    position: absolute;
+    top: 23px;
+    left: 450px;
+}
+.rider_profile_Submit{
+    background: red;
+    color: white;
+    font-family: Mulish;
+    line-height: 20.08px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.rider_profile_Submit:hover{
+    background-color: rgb(197, 77, 77);
+}
+.rider_profile_label{
+    color: #21334F;
+    margin-top: 20px;
+}
+.rider_profile_btn_container{
+background-color: #e02b45;
+  width: 408px;
+  height: 60px;
+  margin-left: 40px;
+  border-radius: 5px;
+  border: 1px solid #e02b45;
+  text-align: center;
+  color:  #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}

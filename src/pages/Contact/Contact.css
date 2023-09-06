@@ -1,0 +1,99 @@
+.contactContainer{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.contactHeader{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   height: 200px;
+   margin-top: 75px;
+}
+
+.contactImg{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   background-position-y: top;
+
+}
+
+.contactHeader h1{
+   position: absolute;
+   left: auto;
+   right: auto;
+   width: 25%;
+   color: #E02B45;
+   font-size: 50px;
+   text-align: center;
+   font-weight: 700;
+}
+
+.contactMain{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+}
+
+.contactContent{
+   width: 80%;
+   padding-block: 10px;
+}
+.contactformContent{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   padding-block: 10px;
+   /* border: 2px solid #c4c4c4; */
+   padding: 10px;
+   margin: 0px auto;
+}
+
+.contactFormInput{
+   /* width: 80%; */
+   border-radius: 5px;
+   padding: 10px;
+   border: none;
+}
+.contactformContent label{
+   margin-bottom: 2px;
+}
+.contactformContent label:nth-child(n + 2){
+   margin-top: 5px;
+}
+
+
+.contactFormInput::placeholder{
+   padding: none;
+   color: #c4c4c4;
+}
+
+.contactFormInput[type="submit"]{
+   margin-top: 10px;
+   background: #E02B45;
+   color: white;
+}
+
+@media screen and (max-width: 850px){
+   .contactHeader{
+      height: 150px;
+   }
+   .contactHeader h1{
+      font-size: 30px;
+      /* width: 30%; */
+      
+   }
+   .contactContent{
+      width: 100%;
+      margin: 0px auto;
+      padding-inline: 10px;
+   }
+
+   .contactformContent{
+      width: 100%;
+   }
+}

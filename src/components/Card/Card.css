@@ -1,0 +1,6 @@
+.card-style{   
+display: flex;
+flex-direction: column; 
+background-color: #FFFFFF;
+box-sizing: border-box;
+}

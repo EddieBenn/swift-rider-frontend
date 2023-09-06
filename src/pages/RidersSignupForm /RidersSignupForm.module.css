@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&family=Poppins&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    }
+
+.Rider_Signup_container{
+    
+    position: relative;
+    width: 100%;
+    display: flex; 
+    background-color: #E5E5E5;
+}
+
+.image_container{
+    position: relative;
+    background-image:url("../../assets/Users_dashboard/Parcel-Delivery-Service.jpeg");
+    background-size: cover;
+    display: flex;
+    width: 50%;
+    height: 130vh;
+}
+
+.rg_form_image{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    background: linear-gradient(to right, #211c1c4d, #57524a32) 
+  } 
+
+.RiderSignUpLogo{
+    margin: 20px 0px;
+    width: 40%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.desc{
+    color: #E02B45;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+    /* margin- */
+    letter-spacing: 1px;
+}
+.logo_image{
+    display:flex;
+    background: linear-gradient(152.55deg, #E02B45 53.21%, #FCC134 103.48%);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+.image_container img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    filter: brightness(50%);
+    object-fit: cover;
+}
+.cp{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, 50%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 800;
+    z-index: 3;
+}
+
+
+.singup_form_fieldctn{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .singup_form_fieldctn b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background: rgb(255, 255, 255);
+    color: #c4c4c4;
+    margin-bottom: 5px;
+  }
+  
+  b .singup_form_input, b .signup_uploads{
+    height: 2.8em;
+    width: 93%;
+    border: none !important;
+    border-radius: 0px 5px 5px 0px !important;
+  }
+  b .signup_uploads{
+    padding: 12px 0px;
+  }
+  
+  b .singup_form_input::placeholder{
+    padding: none;
+  }
+
+  .singup_form_label{
+    margin-bottom: 2px;
+  }
+
+.icon{
+    border: 1px solid blue;
+}
+
+.signup_form_field_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+.form_bx{
+    box-sizing: border-box;
+    width: 85%;
+    /* border: 1px solid blue; */
+}
+.sub_title{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display:inline-block;
+    margin-bottom: 20px;
+    color: #000;
+}
+.form_elem{
+    /* margin-bottom: 20px; */
+    position: relative;
+}
+.form_elem input, .form_elem select{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding: 10px 6%;
+    font-size: 16px;
+    color: #8a8888;
+    letter-spacing: 1px;
+    border: 1px solid #C4C4C4;
+    font-weight: 400;
+    background: transparent;
+    border-radius: 6px;
+    margin-left: none;
+    /* border: 1px solid blue; */
+}
+.form_elem select{
+    padding-right: 10px;
+    position: relative;
+}
+.rider_SignUp_form{
+    /* border: 1px solid blue;  */
+    padding:none;
+}
+
+input::placeholder{
+    color: #c4c4c4a0;
+    font-weight: 400;
+}
+i{
+    color: #c4c4c4a0;
+    position: absolute;
+    top: 55%;
+    left: 2.5%;
+}
+.rider_signup_label{
+    margin: 10px 5px;
+}
+
+.buttonReg{
+    background-color: #E02B45;
+    color: #fff;
+    cursor: pointer;
+    display:flex;
+    width: 100%;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 15px 6%;
+    margin: 10px 0px;
+    border-radius: 6px;
+
+}
+
+.signup_form_field_container p{
+    margin: 20px 0px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/* #submit{
+    background-color: #E02B45;
+    color: #fff;
+    cursor: pointer;
+} */
+.signin{
+    color: #E02B45;
+    text-decoration: none;
+}
+
+p.signin a{
+    color: #E02B45;
+    text-decoration: none;
+}
+@media (max-width: 900px){
+    .Rider_Signup_container .image_container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    }
+    .Rider_Signup_container .signup_form_field_container {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+    }
+    .image_container img {
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%; 
+        height: 50%;
+        object-fit: contain;
+    }
+    .form_bx {
+        width: 95%;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 10px;
+        margin: 40px 0px;
+    }
+    .RiderSignUpLogo {
+        margin: 20px auto;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image_container p {
+        display:none;
+    }
+}
+@media (max-width: 280px){
+    i{
+        display:none;
+    }
+}
+@media (max-width: 480px){
+    .image_container img {
+        display:none;
+        position: absolute;
+        left: 0;
+        width: 100%; 
+        /* height: 90vh; */
+        object-fit: contain;
+    }
+    .form_elem input, .form_elem select{
+        width: 100%;
+        padding: 10px 8%;
+    }
+}
+@media (max-width: 1024px){
+    .image_container img {
+        position: absolute;
+        left: 0;
+        width: 100%; 
+        height: 170vh;
+        object-fit: cover;
+    }
+    /* .cp{ */
+        /* display:none; */
+        /* position: absolute; */
+    /* } */
+}
+
+

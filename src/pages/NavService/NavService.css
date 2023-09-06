@@ -1,0 +1,95 @@
+.serviceContainer{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   background: #fff;
+   flex: 1;
+}
+
+.serviceHeader{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   height: 200px;
+   margin-top: 75px;
+}
+
+.serviceImg{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   background-position-y: top;
+}
+
+.serviceHeader h1{
+   position: absolute;
+   left: auto;
+   right: auto;
+   color: #E02B45;
+   font-size: 50px;
+   text-align: center;
+   font-weight: 700;
+}
+
+.serviceMain{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   height: auto;
+}
+
+.serviceContent{
+   display: flex;
+   width: 80%;
+   padding: 10px;
+   justify-content: space-between;
+   align-items: center;
+   height: 40vh;
+}
+
+
+.serviceformContent{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
+   border: 2px solid #E02B45b0;
+   padding: 10px;
+   height: 100px;
+   border-radius: 5px;
+}
+
+.serviceFormInput{
+   border-radius: 5px;
+   padding: 10px;
+   border: none;
+}
+.serviceformContent label{
+   margin-bottom: 2px;
+}
+.serviceformContent label:nth-child(n + 2){
+   margin-top: 5px;
+}
+
+
+@media screen and (max-width: 850px){
+   .serviceHeader{
+      height: 150px;
+   }
+   .serviceHeader h1{
+      font-size: 30px;
+   }
+   .serviceContent{
+      width: 100%;
+      margin: 0px auto;
+      padding-inline: 10px;
+      flex-direction: column;
+   }
+
+   .serviceformContent{
+      width: 100%;
+      margin-block: 10px;
+   }
+}

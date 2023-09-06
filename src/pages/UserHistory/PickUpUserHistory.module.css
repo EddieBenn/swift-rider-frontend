@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user_history_parent_div{
+    height: auto;
+    /* background-color: #FFF; */
+    width: 80%;
+    display: flex;
+    margin: auto;
+    /* position: absolute; */
+
+}
+.containerHistory{
+    margin: 10% auto;
+    /* margin-top: 120px auto; */
+    display: flex;
+    flex-direction: column;
+    height:70vh ;
+    width:100%;
+    background-color:#FFFF;
+    border: 1px ;
+    padding: 20px 0px;
+}
+.riderPickupHistory{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    border-bottom: 2px solid 
+    rgba(226, 226, 226, 1);
+  
+}
+
+
+.containerHistory hr{
+  margin-top: 180px;
+  width:83%;
+}
+.storyHistory{
+  font-weight: 1000;
+}
+.filterButton{
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    /* margin-left: 850px; */
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width:80px;
+    height: 50px;
+    font-size:bold;
+    font-weight: 500;
+   
+    
+}
+
+.deliveryHistory{
+    display:flex;
+    background-color: #E5E5E5;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:bold;
+    font-size: large;
+  
+    }
+.locationHistory{
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+.busTopHistory{
+  margin-left: 160px;
+  
+}
+.locationHistory h4 {
+    width:25%;
+  
+    margin-left: 40px;
+}
+.egoHistory{
+    margin-left: 240px;
+  }
+.activityHistory{
+    margin-left: 175px;
+  }
+.deliveryStatusHistory{
+    margin-left: 55px;
+    color:green
+  }
+
+
+  
+
+@media only screen and (max-width:900px) {
+    .locationHistory{
+        /* width: 100%; */
+        overflow-x: scroll;
+        width: 800px;
+    }
+    .locationHistory h4 {
+        width : 20px;
+    }
+    .containerHistory {
+        /* width: 100%; */
+        height: 90vh;
+        margin: 30% auto 5% auto;
+        overflow-x: scroll;
+        width: 800px;
+    }
+    .user_history_parent_div{
+        /* overflow-x: scroll;
+        width: 800px; */
+    }
+}

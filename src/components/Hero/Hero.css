@@ -1,0 +1,120 @@
+.Container {
+  height: 65vh;
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.mainimage{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ImageContainer {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.imageOverlay {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+}
+
+.mainText {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+  align-items: center;
+}
+
+.maintexttogether{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 4rem;*/
+  justify-content: center;
+  text-align: center;
+}
+
+.hero_h1 {
+  display: flex;
+  color: white;
+  font-size: 4.2rem;
+  font-weight: 700;
+  width: 70%;
+}
+
+.hero_p{
+  font-weight: 400;
+  color: white;
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0rem 0px 0.5rem;
+}
+
+.buttondiv {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.button1, .button2{
+  padding: 1rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  width: 180px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #E02B45;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.button2 {
+  color: rgb(255, 255, 255);
+  border: rgb(255, 255, 255) solid 1px;
+  background-color: transparent;
+}
+
+
+@media (max-width: 768px) {
+  .hero_h1 {
+    font-size: 2.6rem;
+    width: 100%;
+  }
+  .hero_p {
+    font-size: 1.2rem;
+    /* margin-top: 11em; */
+  }
+  .buttondiv {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    /* margin-top: 4em; */
+  }
+
+  .button1, .button2 {
+    padding: 0.8rem 0.8rem;
+  }
+
+}
