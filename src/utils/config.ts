@@ -1,2 +1,4 @@
-export const baseURL = import.meta.VITE_BASE_URL as string;
-export const baseURI = import.meta.VITE_BASE_URI as string;
+/* eslint-disable prettier/prettier */
+// eslint-disable-next-line prettier/prettier
+export const baseURL:any = import.meta.VITE_BASE_URL;
+export const baseURI:any = import.meta.VITE_BASE_URI;
