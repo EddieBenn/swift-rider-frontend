@@ -1,10 +1,10 @@
+/* eslint-disable spaced-comment */
 import axios from "axios";
 // import { baseURI } from "../config";
-import { baseURL } from "../config";
 
-export const baseURI = "https://swift-rider-coug.onrender.com"
+export const baseURI = "https://swift-rider-83sa.onrender.com";
+
 //"https://swift-rider.onrender.com";
-
 
 export const apiGet = async (path: string) => {
 	return await axios.get(`${baseURI}${path}`);
@@ -31,7 +31,7 @@ export const apiPostAndAuth = async (path: string, data: any) => {
 		},
 	};
 
-	return await axios.post(`${baseURL}${path}`, data, config);
+	return await axios.post(`${baseURI}${path}`, data, config);
 };
 
 export const apiPost = async (path: string, data: any) => {
@@ -49,7 +49,7 @@ export const apiPut = async (path: string, data: any) => {
 		},
 	};
 
-	return await axios.put(`${baseURL}${path}`, data, config);
+	return await axios.put(`${baseURI}${path}`, data, config);
 };
 
 export const apiPatch = async (path: string, data: any) => {
@@ -77,7 +77,7 @@ export const apiDelete = async (path: string) => {
 		},
 	};
 
-	return await axios.delete(`${baseURL}${path}`, config);
+	return await axios.delete(`${baseURI}${path}`, config);
 };
 
 export const apiPatchAuth = async (path: string, data: any, config: any) => {

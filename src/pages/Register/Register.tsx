@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable @typescript-eslint/no-misused-promises */
 /* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable no-irregular-whitespace */
